@@ -1,6 +1,7 @@
 ---
 # tasks file for wal-g
-- fail:
+- name: Fail for unsupported architecture
+  fail:
     msg: "Can't install wal-g: unsupported arch ({{ ansible_architecture }})."
   when: ansible_architecture != "x86_64"
 
