@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: wal-g
   author: islander
   description: A role to install wal-g archival restoration tool.
 
