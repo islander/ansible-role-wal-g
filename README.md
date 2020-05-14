@@ -1,5 +1,6 @@
 WAL-G
 =========
+[![Build Status](https://travis-ci.org/islander/ansible-role-wal-g.svg?branch=master)](https://travis-ci.org/islander/ansible-role-wal-g)
 
 A role to install [wal-g][1] archival restoration tool.
 
