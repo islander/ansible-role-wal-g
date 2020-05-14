@@ -34,15 +34,17 @@ API URL of wal-g github releases.
 Example Playbook
 ----------------
 
+Install role from galaxy: `ansible-galaxy install islander.wal_g`
+
     - hosts: servers
       roles:
-         - role: islander.wal-g
+         - islander.wal_g
 
 If you need to modify installation path:
 
     - hosts: servers
       roles:
-         - { role: islander.wal-g, walg_bin_path: /opt/bin }
+         - { role: islander.wal_g, walg_bin_path: /opt/bin }
 
 License
 -------
